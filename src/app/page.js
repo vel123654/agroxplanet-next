@@ -6,6 +6,7 @@ export default function Home() {
       <div>
         <p>amazon</p>
         <p>FlipKart</p>
+        <p>a=AgroXPlanet</p>
       </div>
     </div>
   );
