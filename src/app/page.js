@@ -4,7 +4,8 @@ export default function Home() {
   return (
     <div>
       <div>
-        <h1> H i </h1>
+        <p>amazon</p>
+        <p>FlipKart</p>
       </div>
     </div>
   );
