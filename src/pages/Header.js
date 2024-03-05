@@ -1,8 +1,8 @@
 import React from 'react'
 // import Image from 'next/image'
 // import {MenuIcon, SearchIcon, ShoppingCartIcon} from "heroicons/react/outline"
-// import { IoSearch } from "react-icons/io5";
-// import { HiOutlineShoppingCart } from "react-icons/hi";
+import { IoSearch } from "react-icons/io5";
+import { HiOutlineShoppingCart } from "react-icons/hi";
 
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
 
                     <div className= 'hidden sm:flex items-center h-10 ml-2 pr-2 rounded-md flex-grow cursor-pointer bg-agro-primarygreen  hover:bg-agro-secondarygreen'>
                         <input className='p-2 h-full  flex-grow flex-shrink rounded-md focus:outline-none' type="text" />
-                        {/* <IoSearch  className='text-2xl ml-[10px] '/> */}
+                        <IoSearch  className='text-2xl ml-[10px] '/>
                     </div>
 
                     {/* right side  */}
@@ -48,7 +48,7 @@ const Header = () => {
 
                         <div className='link relative flex items-center'>
                             <span className='text-black absolute top-[-8px] right-[-6px] md:right-[41px] md:top-[-4px] h-4 w-4 bg-agro-basket text-center rounded-full font-bold'>0</span>
-                            {/* <HiOutlineShoppingCart className='text-2xl'/> */}
+                            <HiOutlineShoppingCart className='text-2xl'/>
                             <p className=' hidden md:inline font-extrabold md:text-sm mt-3'>Basket</p>
                         </div>``
                     </div>
