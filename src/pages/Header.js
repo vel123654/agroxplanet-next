@@ -10,7 +10,7 @@ const Header = () => {
         <header>
             <div>
                 {/* Top nav */}
-                <div className='flex items-center bg-agro-primarygreen p-2 h-[80px] flex-grow w-full'>
+                <div className='flex items-center bg-argo-primarygreen p-2 h-[80px] flex-grow w-full'>
                     {/* <div>
                         <Image 
                             src="https://links.papareact.com/f90"
@@ -28,8 +28,8 @@ const Header = () => {
 
                     {/* Search bar */}
 
-                    <div className= 'hidden sm:flex items-center h-10 ml-2 pr-2 rounded-md flex-grow cursor-pointer bg-agro-primarygreen  hover:bg-agro-secondarygreen'>
-                        <input className='p-2 h-full  flex-grow flex-shrink rounded-md focus:outline-none' type="text" />
+                    <div className= 'hidden sm:flex items-center h-10 ml-2 pr-2 rounded-md flex-grow cursor-pointer bg-argo-primarygreen  hover:bg-argo-secondarygreen'>
+                        <input className='p-2 h-full  flex-grow flex-shrink rounded-l-xl focus:outline-none' type="text" />
                         <IoSearch  className='text-2xl ml-[10px] '/>
                     </div>
 
@@ -47,7 +47,7 @@ const Header = () => {
                         </div>
 
                         <div className='link relative flex items-center'>
-                            <span className='text-black absolute top-[-8px] right-[-6px] md:right-[41px] md:top-[-4px] h-4 w-4 bg-agro-basket text-center rounded-full font-bold'>0</span>
+                            <span className='text-black absolute top-[-8px] right-[-6px] md:right-[41px] md:top-[-4px] h-4 w-4 bg-argo-basket text-center rounded-full font-bold'>0</span>
                             <HiOutlineShoppingCart className='text-2xl'/>
                             <p className=' hidden md:inline font-extrabold md:text-sm mt-3'>Basket</p>
                         </div>``
